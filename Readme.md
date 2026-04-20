@@ -5,8 +5,10 @@
 ---
 
 ## 📐 Architecture
+<p align="center">
+  <img src="resources\project_architecture.png" alt="Project Workflow" width="600"/>
+</p>
 
-![Project Architecture](resources\project_architecture.png)
 
 The pipeline follows the **Medallion Architecture** pattern:
 
@@ -64,8 +66,9 @@ fmcg (Unity Catalog)
 ---
 
 ## 🔄 Pipeline
-
-![Pipeline](dashboarding\pipeline.png)
+<p align="center">
+  <img src="dashboarding\pipeline.png" alt="Project Workflow" width="600"/>
+</p>
 
 The pipeline is orchestrated using **Databricks Jobs** with 4 sequential tasks:
 
@@ -84,8 +87,9 @@ Each task depends on the previous one to ensure referential integrity across dim
 ---
 
 ## 📊 Dashboard
-
-![Dashboard](dashboarding\dashboard.png)
+<p align="center">
+  <img src="dashboarding\dashboard.png" alt="Project Workflow" width="600"/>
+</p>
 
 A unified **Sales Insights Dashboard** built in Databricks showing:
 
